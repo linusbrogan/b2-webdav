@@ -1,0 +1,34 @@
+{
+  "name": "b2-webdav",
+  "version": "0.1.0",
+  "description": "A Backblaze B2 file system for webdav-server",
+  "main": "B2FileSystem.js",
+  "dependencies": {
+    "b2-cloud-storage": "^0.0.11",
+    "dotenv": "^8.2.0",
+    "got": "^9.6.0",
+    "mime-types": "^2.1.25",
+    "webdav-server": "^2.6.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/linusaurusrex/b2-webdav.git"
+  },
+  "keywords": [
+    "backblaze",
+    "b2",
+    "file system",
+    "webdav",
+    "webdav-server"
+  ],
+  "author": "Linus Brogan <npm@linusaur.us> (https://www.linusaur.us/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/linusaurusrex/b2-webdav/issues"
+  },
+  "homepage": "https://github.com/linusaurusrex/b2-webdav#readme"
+}
